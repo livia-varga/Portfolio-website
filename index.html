@@ -19,45 +19,58 @@
     <title>Livi|Visuals</title>
   </head>
   <body>
+
+     <!-- Navigation -->
+     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <h5 class="text-primary fs-4 text-uppercase logo">L|V| V|SU/\LS</h5>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item ">
+              <a href="#portfolio" class="nav-link text-primary">PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link text-primary">ABOUT ME</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link text-primary">CONTACT</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
     <header class="header vh-100 text-center position-relative">
       <div
         class="text-container position-relative d-flex flex-column justify-content-center align-items-center h-100"
       >
-        <h5 class="text-primary fs-3 fw-bold text-uppercase">LIVI VISUALS</h5>
+        
         <h1 id="typing-text" class="display-1 fw-light text-white"></h1>
 
-        <p class="roles text-white text-uppercase fs-4">
+        <p class="roles text-black text-uppercase fs-3">
           <span> Junior Frontend Developer | </span>
           <span>UX/UI Designer</span>
         </p>
-
-        <a href="#about" class="btn btn-outline-light btn-lg mt-3">
-          <div class="d-flex">
-            <div class="me-3">
-              <i class="fas fa-chevron-down"></i>
-            </div>
-            <div class="text-start">
-              <span>More About Me</span>
-            </div>
-          </div>
-        </a>
-
-        <div class="social d-flex gap-3 position-absolute">
-          <a href="https://www.linkedin.com/in/l%C3%ADvia-varga-91375944/" target="_blank">
-            <i class="fab fa-linkedin fa-3x text-white"></i>
-          </a>
-          <a href="https://github.com/livia-varga" target="_blank">
-            <i class="fab fa-github fa-3x text-white"></i>
-          </a>
-        </div>
       </div>
     </header>
 
     <!-- About -->
-    <section id="about" class="about bg-transparent py-5">
+    <section id="about" class="about bg-light py-5">
       <div class="container">
         <div class="text-center">
-          <h1 class="text-uppercase fw-bold text-primary">About Me</h1>
+          <h1 class="text-uppercase text-primary">About Me</h1>
           <hr class="w-25 mx-auto" />
         </div>
         <div class="about-content d-flex gap-5 align-items-center h-100">
@@ -68,25 +81,85 @@
           />
 
           <ul class="list-group list-unstyled">
-            <li class="p-3 h5">I am Livia Varga -  I'm glad you visited my site. </li>
-            <li class="p-3 h5">I am a junior Frontend Developer - I use Javascript, HTML, CSS, React, Bootstrap, Sass</li>
-            <li class="p-3 h5">I am a junior UX/UI Designer - I use Figma, Adobe Creative Suite</li>
-            <li class="p-3 h5">Check out my portfolio to learn more about some of the projects I have worked on.</li>
+            <li class="p-3 h5 ">I am Livia Varga - <span class="text-white fs-3">I'm glad you visited my site. </span> </li>
+            <li class="p-3 h5 ">I am a junior Frontend Developer - <span class="text-white fs-3">I use Javascript, HTML, CSS, React, Bootstrap, Sass</span> </li>
+            <li class="p-3 h5 ">I am a junior UX/UI Designer - <span class="text-white fs-3">I use Figma, Adobe Creative Suite</span></li>
+            <li class="p-3 h5 text-uppercase ">Check out my portfolio to learn more about some of the projects I have worked on.</li>
           </ul>
         </div>
       </div>
     </section>
 
-    <!-- Profile & Skills -->
+    <!-- Portfolio choose -->
+
     
 
-    <!-- Portfolio -->
-    <section class="portfolio py-5 bg-light">
+    <section id="portfolio" class="portfolio bg-transparent py-5">
       <div class="container">
         <div class="text-center mb-5">
-          <h1 class="text-uppercase fw-bold text-primary">PORTFOLIO</h1>
+        <h1 class="text-uppercase text-primary">PORTFOLIO</h1>
           <hr class="w-25 mx-auto" />
-          <h4 class="text-uppercase fw-bold text-primary">UI design plans made in Figma</h4>
+        </div>
+        <div class="text-center">
+          <hr class="w-100 mx-auto" />
+        </div>
+        <div class="about-content d-flex gap-5 align-items-center h-100">
+          <img
+            src="images/krem10.jpg"
+            alt=""
+            class="design-img img-thumbnail"
+          />
+           <a href="uxuidesign.html" class="link-unstyled fs-4">UX/UI DESIGN PROJECTS</a>
+        </div>
+      </div>
+    </section>
+
+    
+
+    
+
+    <section id="about" class="about bg-transparent py-5">
+      <div class="container">
+        <div class="text-center">
+          <hr class="w-100 mx-auto" />
+        </div>
+        <div class="about-content d-flex gap-5 align-items-center h-100">
+
+          <a href="adobephotoshop.html" class="link-unstyled fs-4">ADOBE PHOTOSHOP PROJECTS</a>
+
+          <img
+            src="images/krem7.jpg"
+            alt=""
+            class="design-img img-thumbnail"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about bg-transparent py-5">
+      <div class="container">
+        <div class="text-center">
+          <hr class="w-100 mx-auto" />
+        </div>
+        <div class="about-content d-flex gap-5 align-items-center h-100">
+          <img
+            src="images/krem20.jpg"
+            alt=""
+            class="design-img img-thumbnail"
+          />
+
+          <a href="adobeillustrator.html" class="link-unstyled fs-4">ADOBE ILLUSTRATOR PROJECTS</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <!-- <section id="portfolio" class="portfolio py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h1 class="text-uppercase text-primary">PORTFOLIO</h1>
+          <hr class="w-25 mx-auto" />
+          <h4 class="text-uppercase text-primary">UI design plans made in Figma</h4>
           <hr class="w-25 mx-auto" />
           <p class="lead"></p>
         </div>
@@ -146,7 +219,7 @@
     <section class="portfolio py-5 bg-light">
       <div class="container">
         <div class="text-center mb-5">
-          <h4 class="text-uppercase fw-bold text-primary">Adobe Photoshop Projects</h4>
+          <h4 class="text-uppercase text-primary">Adobe Photoshop Projects</h4>
           <hr class="w-25 mx-auto" />
         </div>
         <div class="row">
@@ -191,7 +264,7 @@
     <section class="portfolio py-5 bg-light">
       <div class="container">
         <div class="text-center mb-5">
-          <h4 class="text-uppercase fw-bold text-primary">Adobe Illustrator Projects</h4>
+          <h4 class="text-uppercase text-primary">Adobe Illustrator Projects</h4>
           <hr class="w-25 mx-auto" />
         </div>
         <div class="row">
@@ -213,10 +286,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Stkincare project-->
-    <section class="styleshout text-bg bg-gradient p-6 text-center">
+    <section class="styleshout text-bg bg-light p-6 text-center">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -225,7 +298,8 @@
             <p class="lead">
               I studied development at the Progmatic Academy, where
               I prepared a Skincare
-              webshop project with three of my teammates.
+              webshop project with three of my teammates.This is a react application,
+              we worked on it for 1 month.
               We worked with the git-flow method on separate 
               branches and also we stored
               the data in Firebase.
@@ -246,12 +320,9 @@
     <section class="services text-bg-dark py-5 position-relative">
       <div class="container position-relative">
         <div class="text-center mb-5">
-          <h4 class="text-uppercase fw-bold text-primary">Services</h4>
+          <h1 class="text-uppercase text-primary">Services</h1>
           <hr class="w-25 mx-auto" />
-          <h2 class="mb-4">What Can I Do For You?</h2>
-          <p class="lead">
-            Here are some of the services that I offer
-          </p>
+          <h3 class="mb-4">What Can I Do For You?</h3>
         </div>
         <div class="row">
           <div class="col-md-6 text-center">
@@ -278,14 +349,14 @@
 
 
     <!-- Contact -->
-    <section class="contact text-bg-light bg-gradient py-5">
+    <section id="contact" class="contact text-bg-secondary bg-gradient py-5">
       <div class="container">
         <div class="row">
           <div class="col-md-8 offset-md-2">
             <div class="text-center mb-5">
-              <h4 class="text-uppercase fw-bold text-primary">Contact</h4>
+              <h1 class="text-uppercase text-primary">Contact</h1>
               <hr class="w-25 mx-auto" />
-              <h2 class="mb-4">I'd love to hear from you.</h2>
+              <h3 class="mb-4">I'd love to hear from you.</h3>
               <p class="lead">
                 If you have any questions or would like to work together, please
                 contact me with the form below.
@@ -297,7 +368,7 @@
               <div class="mb-5">
                 <input
                   type="text"
-                  class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-black"
+                  class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-black fs-5"
                   name="name"
                   placeholder="Name"
                 />
@@ -305,40 +376,40 @@
               <div class="mb-5">
                 <input
                   type="email"
-                  class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-black"
+                  class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-black fs-5"
                   name="email"
                   placeholder="Email"
                 />
               </div>
               <div class="mb-5">
                 <textarea
-                  class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-black"
+                  class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-black fs-5"
                   name="message"
                   placeholder="Message"
                 ></textarea>
               </div>
               <div class="mb-5 d-grid">
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary fs-5">Submit</button>
               </div>
             </form>
           </div>
         </div>
     </section>
 
-    <section class="contact text-bg-dark bg-gradient py-5">
     <!-- Footer -->
+    <section class="contact text-bg-dark bg-dark py-5">
     <div class="row">
       <div class="col-md-8 offset-md-2">
     <div class="d-flex mt-5">
       <p class="flex-grow-1">
-        Copyright &copy; 2023 | Design By StyleShout
+        LIVI VISUALS 2023
       </p>
       <div class="hstack gap-3">
         <a href="https://github.com/livia-varga" target="_blank">
-          <i class="fab fa-github fa-2x text-white"></i>
+          <i class="fab fa-github fa-2x text-black"></i>
         </a>
         <a class="text-decoration-none" href="https://www.linkedin.com/in/l%C3%ADvia-varga-91375944/" target="_blank">
-          <i class="fab fa-linkedin fa-2x text-white"></i>
+          <i class="fab fa-linkedin fa-2x text-black"></i>
         </a>
       </div>
     </div>

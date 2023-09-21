@@ -1,17 +1,28 @@
-.header {
-  background: #151515 url("../images/blonde.jpg") no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed;
+.navbar .btn-outline-light:hover {
+  color: var(--bs-dark);
 }
 
-.header::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.7);
+.navbar {
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar-sticky {
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.nav-item {
+  font-family: "lora-regular", serif;
+}
+
+.logo {
+  font-family: "lora-regular", serif;
+}
+
+.header {
+  background: #151515 url("../images/krem2.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .header .text-container {
@@ -27,7 +38,11 @@
 }
 
 .about-img {
-  width: 200px;
+  width: 350px;
+}
+
+.design-img {
+  width: 600px;
 }
 
 .project:hover {
@@ -37,23 +52,18 @@
 }
 
 .services {
-  background: url("../images/introimg3.jpg") no-repeat center center;
+  background: url("../images/krem9.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
 }
 
-.services::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.7);
-}
-
 .services .container {
   z-index: 10;
+}
+
+.link-unstyled {
+  color: inherit;
+  text-decoration: inherit;
 }
 
 @media (max-width: 767px) {
